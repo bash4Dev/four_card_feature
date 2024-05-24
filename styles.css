@@ -13,7 +13,7 @@ body {
     background-color: hsl(0, 0%, 98%);
     color: hsl(229, 6%, 66%);
     margin: 0px;
-    padding: 60px;
+    padding: 50px;
     font-family: "Poppins", sans-serif;
 }
 
@@ -46,19 +46,22 @@ header .bold-header {
 }
 
 #container .section {
-    display: flex;
-    flex-direction: column;
+    display: block;
     margin: 0;
     padding: 10px;
     width: 250px;
-    height: 150px;
-    border-radius: 5px;
+    height: 170px;
+    border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 6px 18px -4px;
 }
 
 .supervisor {
     grid-area: supervisor;
     border-top: solid hsl(180, 62%, 55%);
+}
+
+.supervisor img {
+    margin-top: 0.8em;
 }
 
 .team-builder {
@@ -69,6 +72,10 @@ header .bold-header {
 .karma {
     grid-area: karma;
     border-top: solid hsl(34, 97%, 64%);
+}
+
+.karma img {
+    margin-top: 0.8em;
 }
 
 .calculator {
@@ -87,9 +94,10 @@ section p {
 }
 
 section img {
-    align-self: flex-end;
-    margin-top: 10px;
+    float: right;
+    margin-top: -0.3em;
     width: 36px;
+    
 }
 
 
