@@ -14,6 +14,7 @@ body {
     color: hsl(229, 6%, 66%);
     margin: 0px;
     padding: 60px;
+    font-family: "Poppins", sans-serif;
 }
 
 header {
